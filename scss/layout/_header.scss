@@ -1,0 +1,123 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient($blancorodante #ebeaf200);
+    height: 4.5rem;
+    margin-top: 0;
+    z-index: 1;
+    ul {
+      list-style: none;
+      display: flex;
+      text-decoration: none;
+      gap: 80px;
+      margin-top: 1rem;
+    }
+    li a {
+      text-decoration: none;
+      color: $negrorodante;
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.75rem;
+      }
+    }
+    .iconcontainer {
+      display: flex;
+      margin-right: 2.5rem;
+    }
+    .logo {
+      width: 9.9375rem;
+      height: 2.625rem;
+      margin-left: 2.5rem;
+    }
+    .inputnav {
+        background-color: $blancorodante;
+        border-radius: 0.25rem 0 0 0.25rem;
+        border-color: transparent;
+        width: 12rem;
+        font-weight: 300;
+        font-size: .8rem;
+        padding: 0.25rem;
+        box-shadow: 0rem .25rem .625rem #00000085;
+      }
+      .buttonnav {
+        background-color: #0D0C40;
+        color: $blancorodante;
+        border-radius: 0 0.25rem 0.25rem 0;
+        border-color: transparent;
+        font-weight: 300;
+        font-size: .8rem;
+        padding: 0.25rem;
+        box-shadow: 0rem .2}}
+        h2 {
+            font-size: 4rem;
+            line-height: 4.6875rem;
+            text-align: left;
+            margin-left: 2.5rem;
+            margin-bottom: 1.25rem;
+            width: 52.625rem;
+            height: 9.375rem;
+            color: $negrorodante;
+            margin-top: 3rem;
+          }
+          
+          .contenedor1 {
+            p {
+              font-size: 1.25rem;
+              line-height: 1.5625rem;
+              text-align: left;
+              margin-left: 2.5rem;
+              margin-bottom: 1.25rem;
+              font-weight: 300;
+              width: 50.9375rem;
+              height: 4.6875rem;
+              color: $negrorodante;
+            }
+            button {
+              font-size: 1.5625rem;
+              margin-left: 2.5rem;
+              width: 10.375rem;
+              height: 2.9375rem;
+              border-radius: .3125rem;
+              border: none;
+              background-color: $azulrodante;
+              box-shadow: 0rem .25rem .625rem #00000085;
+              &:hover {
+                box-shadow: 0rem .50rem 1.5rem #000000d0;
+              }
+              a {
+                color: $blancorodante;
+                text-decoration: none;
+              }
+            }
+          }
+          .titulo {
+            font-size: 2.1875rem;
+            font-weight: 400;
+            text-align: center;
+            color: $blancorodante;
+            margin-top: 3.1rem;
+            margin-bottom: 7rem;
+          }
+
+          .decoo, .mesass, .luminariaa, .sillass, .homee {
+            text-decoration: underline;
+            text-underline-offset: 0.75rem;
+          }
+          
+          .navbar2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            visibility: hidden;
+          }
+          

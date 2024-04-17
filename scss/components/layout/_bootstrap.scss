@@ -1,0 +1,21 @@
+.offcanvas {
+    max-width: 50%;
+    background-color: #ebeaf2d3;
+  }
+  
+  .staticBackdropLabel {
+    li {
+      list-style: none;
+      margin-left: 1rem;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #110904;
+  
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.5rem;
+      }
+    }
+  }

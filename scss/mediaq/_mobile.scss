@@ -1,0 +1,378 @@
+ @media (max-width: 375px) {
+      .background-section {
+        background-image: url(../assets/portadamobile.png);
+        background-size: cover;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    
+        &::after {
+          height: 130%;
+        }
+      }
+    
+    
+    .logo {
+      width: 3rem;
+      height: 0.8rem;
+      margin-left: 16px;
+    }
+    
+    #producto {
+      width: 14.5625rem;
+      height: .875rem;
+      font-size: .6rem;
+      margin-left: 0;
+      margin-top: .15rem;
+    }
+    
+    .iconos2 {
+      width: 45px;
+    }
+    
+    .menu {
+      width: 15px;
+      margin-right: 1rem;
+    }
+    
+    .contenedor1 {
+      margin-top: -2.5rem;
+    }
+    
+    h2 {
+      font-size: 1.5625rem;
+      margin-left: 1rem;
+      line-height: 1.6875rem;
+      width: 100%;
+      height: fit-content;
+      width: fit-content;
+    }
+    
+  .contenedor1 {
+    p {
+      font-size: 0.625rem;
+      line-height: 12px;
+      width: 80%;
+      margin-left: 1rem;
+      margin-top: -0.75rem;
+      height: fit-content;
+    }
+  
+    button {
+      margin-top: -1rem;
+      width: 5.375rem;
+      height: 1.9375rem;
+      font-size: 0.75rem;
+      margin-left: 1rem;
+    }
+  }
+  
+  .frase1 {
+    font-size: 0.5rem;
+    margin-top: 27.8rem;
+  }
+  
+  #nuevosingresos {
+    font-size: 0.9375rem;
+    margin-top: 2rem;
+  }
+  
+  #nombre {
+    width: 50%;
+  }
+  
+  .contenedor2txt {
+    gap: 1rem;
+  }
+  
+  .escenciastxt {
+    font-size: 0.5rem;
+  }
+  
+  .contenedor2 {
+    margin-top: -5rem;
+  }
+  
+  .contenedor2txt {
+    font-size: 1rem;
+    gap: 6.5rem;
+    margin-top: 0.2rem;
+    left: 51%;
+  }
+  
+  .form1 {
+    margin-left: -3.5rem;
+    margin-top: 0rem;
+    justify-content: center;
+    font-size: 0.625rem;
+  }
+  
+  #nombre {
+    width: 12rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    margin-top: 0.25rem;
+    padding-left: 0.5rem;
+  }
+  
+  #unirse {
+    height: 2rem;
+    width: 5rem;
+    font-size: 0.9rem;
+  }
+  
+  .vectorfinal {
+    margin-top: 0rem;
+  }
+  
+  .vectorfinal2 {
+    margin-top: -2rem;
+  }
+  
+  .iconoinstagram img {
+    width: 1.5625rem;
+    height: 1.5625rem;
+  }
+  
+  .iconorodante img {
+    width: 5rem;
+  }
+  
+  .iconopinterest img {
+    width: 1.5625rem;
+    height: 1.5625rem;
+  }
+  
+  
+  .background-section2 {
+    background-image: url(/assets/fondomobile.png);
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    height: 135%;
+  }
+  
+  .footer1 {
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  
+  .titulo {
+    font-size: 15px;
+    margin-top: 3.3rem;
+  }
+  
+  .staticBackdropLabel li {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  
+  .navbar2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  
+  .menuicon {
+    width: 1.1rem;
+  }
+  .gallery1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    column-gap: 0rem;
+  }
+  
+  .a1, .a2, .a3, .a4 {
+    border-radius: 0.25rem;
+    width: 75px;
+  
+    &:hover {
+      opacity: 75%;
+    }
+  }
+  .a1light {
+    font-size: 6.5px;
+  }
+  .a1bold {
+    font-size: 10px;
+  }
+  
+  .gallery1txt {
+    padding-bottom: 8rem;
+    column-gap: 3.3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    text-wrap: wrap;
+    line-height: 10px;
+    padding-left: 1rem;
+  }
+  .blogsection {
+    display: grid;
+    grid-template-areas: 
+    "bs1 bs1 bs8 bs8" 
+    "bs2 bs3 bs9 bs9" 
+    "bs4 bs5 bs10 bs10" 
+    "bs6 bs7 bs11 bs11";
+    column-gap: 0.5rem;
+    row-gap: 0.8rem;
+    width: 85%;
+    margin: auto;
+    align-items: top;
+    line-height: 11px;
+    margin-top: 1rem;
+  }
+  
+  .bs1 {
+    grid-area: bs1;
+    border-bottom: 0.75px solid rgba(117, 117, 117, 0.661);
+    padding-bottom: 7px;
+  }
+  
+  .bs2 {
+    grid-area: bs2;
+    border-bottom: 0.75px solid rgba(117, 117, 117, 0.661);
+    padding-bottom: 7px;
+  }
+  
+  .bs3 {
+    grid-area: bs3;
+    border-bottom: 0.75px solid rgba(117, 117, 117, 0.661);
+    padding-bottom: 7px;
+  }
+  
+  .bs4 {
+    grid-area: bs4;
+    border-bottom: 0.75px solid rgba(117, 117, 117, 0.661);
+    padding-bottom: 7px;
+  }
+  
+  .bs5 {
+    grid-area: bs5;
+    border-bottom: 0.75px solid rgba(117, 117, 117, 0.661);
+    padding-bottom: 7px;
+  }
+  
+  .bs6 {
+    grid-area: bs6;
+  }
+  
+  .bs7 {
+    grid-area: bs7;
+  }
+  
+  .bs8 {
+    grid-area: bs8;
+    border-radius: 0.5rem;
+    width: 70px;
+  }
+  
+  .bs9 {
+    grid-area: bs9;
+    border-radius: 0.5rem;
+    width: 70px;
+  }
+  
+  .bs10 {
+    grid-area: bs10;
+    border-radius: 0.5rem;
+    width: 70px;
+  }
+  
+  .bs11 {
+    grid-area: bs11;
+    border-radius: 0.5rem;
+    width: 70px;
+  }
+  
+  .bsbold {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  
+  .bslight {
+    font-size: 9px;
+    font-weight: 200;
+  }
+  
+  .bstitle {
+    font-size: 1.275rem;
+    font-weight: 600;
+  }
+  .fundadores {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-areas: "a1 a2 a3" ". a4 a5";
+    column-gap: 1rem;
+    border-radius: 0.5rem;
+    width: 80%;
+    line-height: 1rem;
+    font-weight: 500;
+    margin: 0 auto;
+    align-items: center;
+
+  }
+  
+  .fundador1 {
+    border-radius: 1rem;
+    width: 6rem;
+    height: 5rem;
+    border: 1px solid #0300b2;
+    padding: 10px;
+    grid-area: a2;
+  }
+  
+  .fundador2 {
+    border-radius: 1rem;
+    width: 6rem;
+    height: 5rem;
+    grid-area: a3;
+    border: 1px solid #0300b2;
+    padding: 10px;
+  }
+  
+  .ftxt {
+    width: 100%;
+    grid-area: a1;
+    margin-top: 1rem;
+    line-height: 13px;
+    margin-top: 2rem;
+  }
+  
+  .fundadorestxt {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #0300b2;
+    text-align: left;
+  }
+  
+  .fundadorestxt1 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #02006f;
+  }
+  
+  .fundadorestxt2 {
+    font-size: 0.4rem;
+    font-weight: 300;
+    color: gray;
+  }
+  
+  .funtxt1 {
+    grid-area: a4;
+    margin-top: -3rem;
+  }
+  
+  .funtxt2 {
+    grid-area: a5;
+    margin-top: -3rem;
+  }
+  .iconcontainer2 {
+    margin: 4rem;
+  }
+}
