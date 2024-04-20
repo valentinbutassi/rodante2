@@ -13,7 +13,7 @@
   font-size: 1.25rem; }
 
 .background-section {
-  background-image: url(../assets/Imagenfondo.png);
+  background-image: url(/assets/Imagenfondo.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -31,21 +31,21 @@
     background-color: #EBEAF2; }
 
 .background-section2 {
-  background-image: url(../assets/Imagenfondopages.png);
+  background-image: url(/assets/Imagenfondopages.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
   z-index: -1;
   width: 100%;
-  height: 105%; }
+  height: 110%; }
   .background-section2:after {
     content: '';
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    height: 160%;
+    height: 140%;
     background-color: #EBEAF2; }
 
 html {
@@ -812,7 +812,7 @@ h2 {
 
 @media (max-width: 375px) {
   .background-section {
-    background-image: url(../assets/portadamobile.png);
+    background-image: url(./assets/portadamobile.png);
     background-size: cover;
     width: 100%;
     position: absolute;
@@ -844,7 +844,7 @@ h2 {
     height: fit-content;
     width: fit-content; }
   .contenedor1 p {
-    font-size: .625rem;
+    font-size: 0.625rem;
     line-height: 12px;
     width: 80%;
     margin-left: 1rem;
@@ -854,38 +854,38 @@ h2 {
     margin-top: -1rem;
     width: 5.375rem;
     height: 1.9375rem;
-    font-size: .75rem;
+    font-size: 0.75rem;
     margin-left: 1rem; }
   .frase1 {
-    font-size: .5rem;
+    font-size: 0.5rem;
     margin-top: 27.8rem; }
   #nuevosingresos {
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 2rem; }
   #nombre {
     width: 50%; }
   .contenedor2txt {
     gap: 1rem; }
   .escenciastxt {
-    font-size: .5rem; }
+    font-size: 0.5rem; }
   .contenedor2 {
     margin-top: -5rem; }
   .contenedor2txt {
     font-size: 1rem;
     gap: 6.5rem;
-    margin-top: .2rem;
+    margin-top: 0.2rem;
     left: 51%; }
   .form1 {
     margin-left: -3.5rem;
     margin-top: 0rem;
     justify-content: center;
-    font-size: .625rem; }
+    font-size: 0.625rem; }
   #nombre {
     width: 12rem;
     height: 2rem;
     font-size: 0.7rem;
     margin-top: 0.25rem;
-    padding-left: .5rem; }
+    padding-left: 0.5rem; }
   #unirse {
     height: 2rem;
     width: 5rem;
