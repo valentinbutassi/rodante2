@@ -13,7 +13,7 @@
   font-size: 1.25rem; }
 
 .background-section {
-  background-image: url(./assets/Imagenfondo.png);
+  background-image: url(/assets/Imagenfondo.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -31,7 +31,7 @@
     background-color: #EBEAF2; }
 
 .background-section2 {
-  background-image: url(./assets/Imagenfondopages.png);
+  background-image: url(/assets/Imagenfondopages.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
