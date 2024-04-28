@@ -356,4 +356,47 @@
   .iconcontainer2 {
     margin: 4rem;
   }
+  .contenedorgal {
+    grid-template-areas: "img1 img2" "img3 retro" "img4 img5" "img6 industrial";
+  }
+  
+  .gal1, .gal2, .gal3, .gal4, .gal5, .gal6 {
+    width: 270px;
+    height: 270px;
+  }
+  
+  .retrotxt {
+    width: 270px;
+    height: 270px;
+    padding-top: 1rem;
+  }
+  
+  .retrotxt1 {
+    font-size: 20px;
+  }
+  
+  .retrotxt2 {
+    font-size: 11px;
+    line-height: 2px;
+  }
+  
+  .industrialtxt {
+    width: 270px;
+    height: 270px;
+    padding-top: 1rem;
+  }
+  
+  .industrialtxt1 {
+    font-size: 20px;
+  }
+  
+  .industrialtxt2 {
+    font-size: 11px;
+    line-height: 2px;
+  }
+  
+  .footer2 {
+    margin-top: 80rem;
+  }
+  
 }
