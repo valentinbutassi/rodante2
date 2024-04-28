@@ -8,7 +8,7 @@
     margin-top: 1.5rem;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient($blancorodante #ebeaf200);
+    @include degradado-lineal($blancorodante, #ebeaf200);
     height: 4.5rem;
     margin-top: 0;
     z-index: 1;
@@ -44,7 +44,7 @@
         font-weight: 300;
         font-size: .8rem;
         padding: 0.25rem;
-        box-shadow: 0rem .25rem .625rem #00000085;
+        @include sombra-caja;
       }
       .buttonnav {
         background-color: #0D0C40;
@@ -87,7 +87,7 @@
               border-radius: .3125rem;
               border: none;
               background-color: $azulrodante;
-              box-shadow: 0rem .25rem .625rem #00000085;
+              @include sombra-caja;
               &:hover {
                 box-shadow: 0rem .50rem 1.5rem #000000d0;
               }

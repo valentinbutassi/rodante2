@@ -1,0 +1,6 @@
+@mixin degradado-lineal($color1, $color2) {
+    background-image: linear-gradient(to bottom, $color1, $color2);
+  }
+@mixin sombra-caja {
+    box-shadow: 0rem 0.25rem 0.625rem rgba(0, 0, 0, 0.85);
+  }

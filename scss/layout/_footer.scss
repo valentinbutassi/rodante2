@@ -33,7 +33,7 @@
     border: none;
     background-color: $azulrodante;
     border-radius: .1875rem;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
   
     &:hover {
       box-shadow: 0rem .50rem 1.5rem #000000d0;
@@ -44,7 +44,7 @@
     height: 5.0625rem;
     border: none;
     border-radius: .1875rem;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
     padding-left: 1rem;
     font-size: 1.25rem;
     font-weight: 100;

@@ -16,6 +16,7 @@
   .a1, .a2, .a3, .a4 {
     border-radius: 0.5rem;
     width: 250px;
+    
   
     &:hover {
       opacity: 75%;
@@ -64,35 +65,35 @@
     grid-area: img1;
     width: 350px;
     height: 350px;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
   }
   
   .gal2 {
     grid-area: img2;
     width: 350px;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
   }
   
   .gal3 {
     grid-area: img3;
     width: 350px;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
   }
   
   .gal4 {
     grid-area: img4;
     width: 350px;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
   }
   
   .gal5 {
     grid-area: img5;
     width: 350px;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
   }
   
   .gal6 {
     grid-area: img6;
     width: 350px;
-    box-shadow: 0rem .25rem .625rem #00000085;
+    @include sombra-caja;
   }
